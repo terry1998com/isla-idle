@@ -1,6 +1,6 @@
 // Service worker de Isla Idle: guarda el juego para que funcione sin conexión.
 // Cuando subas una versión nueva del juego, cambia el número de VERSION para que todos reciban la actualización.
-const VERSION = 'isla-idle-20261025';
+const VERSION = 'isla-idle-20261031-2';
 const ARCHIVOS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
 
 self.addEventListener('install', e => {
